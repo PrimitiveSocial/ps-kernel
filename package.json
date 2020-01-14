@@ -1,6 +1,6 @@
 {
     "name": "@primitivesocial/ps-kernel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Middleware system with Vue Router and Vuex",
     "main": "dist/index.js",
     "scripts": {
