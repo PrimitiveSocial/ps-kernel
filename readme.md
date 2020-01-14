@@ -9,7 +9,7 @@ A middleware system for Vue-router and Vuex
 
 ## Installation
 ```
-npm i @primitivesocial/ps-validation --save
+npm i @primitivesocial/ps-kernel --save
 ```
 
 ## Configuration
