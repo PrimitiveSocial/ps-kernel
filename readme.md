@@ -1,9 +1,9 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PrimitiveSocial/ps-kernel/NodeCI)
+[![CodeFactor](https://www.codefactor.io/repository/github/primitivesocial/ps-kernel/badge)](https://www.codefactor.io/repository/github/primitivesocial/ps-kernel)
 ![downloads](https://img.shields.io/npm/dt/@primitivesocial/ps-kernel)
 ![downloads](https://img.shields.io/npm/v/@primitivesocial/ps-kernel)
-![last-commit](https://img.shields.io/github/last-commit/PrimitiveSocial/ps-kernel)
 ![min-size](https://img.shields.io/bundlephobia/min/@primitivesocial/ps-kernel/1.0.0)
 ![license](https://img.shields.io/github/license/PrimitiveSocial/ps-kernel)
-![closed-issues](https://img.shields.io/github/issues-closed-raw/PrimitiveSocial/ps-kernel)
 
 A middleware system for Vue-router and Vuex
 
