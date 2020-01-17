@@ -64,13 +64,11 @@ test('it redirects back to login if not logged in', () => {
         store
     });
 
-    router.push('/dashboard');
+    router.push('/dashboard').catch(err => {});
     expect(wrapper.vm.$route.path).toBe('/login');
 
     localVue.nextTick(() => {
         console.log('html:', wrapper.vm.$el.innerHTML);
-        // expect(vm.$el.querySelector('h2').textContent).to.equal('Fred Bloggs')
-        // done()
     })
 });
 
