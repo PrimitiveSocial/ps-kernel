@@ -51,6 +51,8 @@
         "transform": {
             "^.+\\.js$": "babel-jest",
             "^.+\\.vue$": "vue-jest"
-        }
+        },
+        "collectCoverage": true,
+        "collectCoverageFrom": ["**/src/*.{js,vue}"]
     }
 }
