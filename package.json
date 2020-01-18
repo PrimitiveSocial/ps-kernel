@@ -1,6 +1,6 @@
 {
     "name": "@primitivesocial/ps-kernel",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Middleware system with Vue Router and Vuex",
     "main": "dist/index.js",
     "scripts": {
@@ -53,6 +53,8 @@
             "^.+\\.vue$": "vue-jest"
         },
         "collectCoverage": true,
-        "collectCoverageFrom": ["**/src/*.{js,vue}"]
+        "collectCoverageFrom": [
+            "**/src/*.{js,vue}"
+        ]
     }
 }
