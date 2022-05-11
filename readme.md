@@ -31,14 +31,14 @@ router.beforeEach((to, from, next) => {
 ```
 
 ## Usage
-Middlewares are simply ES6 exported functions. The function accepts a destructred object as parameter, which contains the store instance, a next function and a redirect function. **The redirect function accepts a route name as parameter.**
+Middlewares are simply ES6 exported functions. The function accepts a destructred object as parameter, which contains the store instance, a next function and a redirect function. **The redirect function accepts a route as parameter.**
 
 ```js
 //auth.js middleware file
 export default function auth ({ store, redirect, next }){
 
     if(!store.getters['user/id']){
-        return redirect('Login'); // 'Login' is the route name
+        return redirect({ name: 'Login' }); // You can pass a route object with parameters: `{ name: 'user', params: { id: userId } }`
     }
 
     //proceed the request

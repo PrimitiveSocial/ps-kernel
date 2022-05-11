@@ -2,13 +2,11 @@
  * Return a Vue route object (https://router.vuejs.org/api/#route-object-properties)
  * to tell the kernel which route to go
  *
- * @param routeName
- * @returns {{name: *}}
+ * @param route
+ * @returns route
  */
-export function redirect(routeName) {
-    return {
-        name: routeName
-    }
+export function redirect(route) {
+    return route
 }
 
 /**
